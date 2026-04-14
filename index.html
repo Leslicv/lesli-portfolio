@@ -1,40 +1,132 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Personal</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesli Caldas — Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Hola, soy Juan 👋</h1>
-        <p>Desarrollador en formación<s/p>
-    </header>
+<nav>
+  <span class="nav-logo">lesli</span>
+  <div class="nav-links">
+    <a href="#about-me">About</a>
+    <a href="#proyectos">Projects</a>
+    <a href="#contacto">Contact</a>
+  </div>
+</nav>
 
-    <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>Me gusta la programación, la tecnología y aprender cosas nuevas.</p>
-    </section>
-
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <div class="proyecto">
-            <h3>Mi primer proyecto</h3>
-            <p>Una app sencilla hecha con HTML y JavaScript.</p>
+<div class="hero">
+    <div class = "hero2">
+        <img src="imagenes/foto_perfil.png" alt="Foto de Lesli">
+        <div class="hero-tag">
+            <span class="dot"></span>
+            Driven by code
         </div>
-    </section>
+    </div>
+    
+  <h1>Hello, I'm <strong>Lesli</strong> —<br>Developer & Web Builder</h1>
+  <p class="hero-desc">
+    Passionate about technology and programming. I build innovative solutions across mobile and web platforms using Swift, Kotlin, and Java.
+  </p>
+  <div class="hero-actions">
+    <a href="#proyectos" class="btn btn-primary">View Projects</a>
+    <a href="https://github.com/Leslicv" target="_blank" class="btn btn-outline">GitHub →</a>
+    <a href="https://www.linkedin.com/in/lesli-caldas-verde-261390288/" target="_blank" class="btn btn-outline">LinkedIn →</a>
+  </div>
+</div>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Email: tuemail@email.com</p>
-    </section>
+<div class="content">
 
-    <footer>
-        <p>© 2026 - Mi Web Personal</p>
-    </footer>
+  <section id="about-me" class="section">
+    <div class="section-header">
+      <h2>About me</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-card">
+      <p>
+        I am passionate about technology and programming. I create innovative solutions for real-world problems, working across mobile (iOS & Android) and web platforms. I enjoy building clean, functional applications that make a difference.
+      </p>
+      <div class="skills">
+        <span class="skill">Swift</span>
+        <span class="skill">Kotlin</span>
+        <span class="skill">Java</span>
+        <span class="skill">Spring Boot</span>
+        <span class="skill">iOS</span>
+        <span class="skill">Android</span>
+        <span class="skill">HTML / CSS</span>
+        <span class="skill">JavaScript</span>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <section id="proyectos" class="section">
+    <div class="section-header">
+      <h2>Projects</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid">
+
+      <a href="wireframes/gestion_cliente.html" class="project-card">
+        <div class="project-header">
+          <div class="project-icon">📱</div>
+          <span class="project-arrow">↗</span>
+        </div>
+        <h3>Customer support app</h3>
+        <p>App para gestión de atención al cliente con seguimiento en tiempo real.</p>
+        <span class="project-tech">Swift · iOS</span>
+      </a>
+
+      <a href="wireframes/gestion_tickets.html" class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🎫</div>
+          <span class="project-arrow">↗</span>
+        </div>
+        <h3>Ticket management app</h3>
+        <p>App para gestión de tickets con flujos de trabajo personalizados.</p>
+        <span class="project-tech">Kotlin · Android</span>
+      </a>
+
+      <a href="wireframes/salud_ocupacional.html" class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🏥</div>
+          <span class="project-arrow">↗</span>
+        </div>
+        <h3>Occupational health system</h3>
+        <p>Sistema web para salud ocupacional con reportes y seguimiento de incidentes.</p>
+        <span class="project-tech">Java · Spring</span>
+      </a>
+
+      <a href="wireframes/ventas_cafeteria.html" class="project-card">
+        <div class="project-header">
+          <div class="project-icon">☕</div>
+          <span class="project-arrow">↗</span>
+        </div>
+        <h3>Cafeteria sales system</h3>
+        <p>Sistema de punto de venta con gestión de inventario y reportes diarios.</p>
+        <span class="project-tech">Java · Eclipse</span>
+      </a>
+
+    </div>
+  </section>
+
+  <section id="contacto" class="section">
+    <div class="section-header">
+      <h2>Contact</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-row">
+      <p>Contact me</p>
+      <a href="mailto:caldasverdelesli@gmail.com">caldasverdelesli@gmail.com →</a>
+    </div>
+  </section>
+
+</div>
+
+<footer>© 2026 · Lesli Caldas Verde</footer>
+
 </body>
 </html>
